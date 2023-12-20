@@ -1,0 +1,43 @@
+/* Add your styles here */
+body {
+    background-color: #92d4fa;
+  }
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: #2a4d61;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .shadow {
+    border: 5px solid ;
+    border-color: #e2e1df #686458 #686458 #e2e1df;
+  }
+  table { 
+    background-color: rgb(255, 252, 240);
+    border: 5px solid;
+    border-color: #ffc62a  #dda816  #dda816 #ffc62a;
+    border-spacing: 0px;
+    margin: 0px;
+    
+    }
+  
+  tr:nth-child(3n):not(:last-child) td {
+      border-bottom-color: #ffc62a;
+    border-bottom-width: 5px;
+  }
+  td {
+      border: 1px solid #97b86c;
+      height: 40px;
+      width: 40px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  
+  td:nth-child(3n):not(:last-child) {
+      border-right-color: #ffc62a;
+    border-right-width: 5px;
+  }
